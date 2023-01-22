@@ -20,6 +20,7 @@ RUN apt-get update && apt-get install -y --no-install-recommends build-essential
     git unzip dosfstools curl wget vim sudo ssh tzdata ca-certificates \
     dbus dbus-x11 alsa-utils pulseaudio pulseaudio-utils mesa-utils x11-apps \
     nodejs npm \
+    xvfb x11vnc xdotool wget tar supervisor net-tools lxde xterm \
     && apt-get clean -y && rm -rf /var/lib/apt/lists
 
 
